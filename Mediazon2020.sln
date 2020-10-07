@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Mediazon2020", "Mediazon2020.dwproj", "{379503EA-53DC-4D2A-9E81-B0D56283F0E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{379503EA-53DC-4D2A-9E81-B0D56283F0E1}.Development|Default.ActiveCfg = Development
+		{379503EA-53DC-4D2A-9E81-B0D56283F0E1}.Development|Default.Build.0 = Development
+		{379503EA-53DC-4D2A-9E81-B0D56283F0E1}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0BD428D-E03C-48F1-9E02-A7227AD5A1FD}
+	EndGlobalSection
+EndGlobal
