@@ -607,13 +607,15 @@
         <Attribute dwd:design-time-name="6c483730-215d-4e5f-bcab-c85a4749a4e6">
           <AttributeID>Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c7be8630-0a50-405e-b3cf-154f3cfe8514">
-          <AttributeID>Dim Geographie - Id</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="29ec929f-1772-45ed-8272-5368b0d3ff8f">
+        <Attribute dwd:design-time-name="11a69ec9-6d8a-4212-ac60-3957abc92a9e">
           <AttributeID>Country</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="a601af4e-75f3-4ced-969a-608cd7f2421d">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="8da6e1bd-412b-4eac-adcd-8169fbcce78c">
       <ID>Produits</ID>
