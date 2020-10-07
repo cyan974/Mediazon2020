@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -47,7 +47,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oa0whHPQV2MVKBGZX7591M8K834=10/1/2020 6:46:02 AM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>A7YenkrvtO6M/QydS1Rx0ud0lT0=10/7/2020 10:39:07 PM10/1/2020 6:46:01 AM</TimeStamp>
         <ID>
           <String>Devises</String>
         </ID>
@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>R403BlRb7d5grZkYpa6fgRbFleQ=10/7/2020 10:28:20 PM10/1/2020 6:46:01 AMLftC6A/nD2HdGivkte5/ANZFyZ4=10/1/2020 6:46:02 AM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>7wjDlHuQLUWsRjni6EToSBTzsLM=10/7/2020 10:35:34 PM10/1/2020 6:46:01 AMLftC6A/nD2HdGivkte5/ANZFyZ4=10/1/2020 6:46:02 AM10/1/2020 6:46:01 AM</TimeStamp>
         <ID>
           <String>Mediazon</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-10-07T20:30:01.146667Z</LastDeployed>
+  <LastDeployed>2020-10-07T20:39:24.766667Z</LastDeployed>
 </DeploymentSnapshot>
