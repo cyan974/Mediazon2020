@@ -127,6 +127,7 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="08ead230-32da-444e-9447-802ed8e281e7">
     <DataSourceViewID>Mediazon DWH</DataSourceViewID>
   </Source>
+  <Type>Customers</Type>
   <UnknownMember>Visible</UnknownMember>
   <ErrorConfiguration dwd:design-time-name="ad39d0f3-6e7a-42ff-853b-3c59c255a2a2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
@@ -138,6 +139,7 @@
     <Attribute dwd:design-time-name="ef376bd9-0eea-46be-91d4-353b89279ee2">
       <ID>Id</ID>
       <Name>Nom</Name>
+      <Type>PersonFullName</Type>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="65969f04-5515-4996-b55c-22b6d6b6aba7">
@@ -169,6 +171,7 @@
     <Attribute dwd:design-time-name="730f6e3d-2133-44e0-a5f9-9621eb345d9b">
       <ID>Dim Geographie - Id</ID>
       <Name>Ville</Name>
+      <Type>AddressCity</Type>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="56e2c809-4b2e-4e1d-94f4-b42a71049f3a">
           <DataType>Integer</DataType>
@@ -200,6 +203,7 @@
     <Attribute dwd:design-time-name="dbceab15-4ce3-4dda-9310-3e71de3cf6e6">
       <ID>Country</ID>
       <Name>Pays</Name>
+      <Type>AddressCountry</Type>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="40a3d877-6062-4bbf-8238-374bd5f219f3">
           <DataType>WChar</DataType>

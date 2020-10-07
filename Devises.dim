@@ -87,6 +87,7 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e6cd2575-2d6c-4fa9-a9b6-16a1d6c533ec">
     <DataSourceViewID>Mediazon DWH</DataSourceViewID>
   </Source>
+  <Type>Currency</Type>
   <ErrorConfiguration dwd:design-time-name="2194ac0d-98b7-4514-b578-e8da10cbeb49">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
@@ -97,6 +98,7 @@
     <Attribute dwd:design-time-name="48b0695a-b12e-401f-b53c-084b8c2b4e30">
       <ID>Id</ID>
       <Name>Devise</Name>
+      <Type>CurrencyIsoCode</Type>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="c9ae1d6a-a95f-48f1-a84d-04a0e555242a">
@@ -122,6 +124,7 @@
     <Attribute dwd:design-time-name="142fd6bd-65af-49ce-a64a-a37b918a885f">
       <ID>Name</ID>
       <Name>Nom</Name>
+      <Type>CurrencyName</Type>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="96492cc7-df1b-41b9-a529-fc16f56ddf13">
           <DataType>WChar</DataType>
