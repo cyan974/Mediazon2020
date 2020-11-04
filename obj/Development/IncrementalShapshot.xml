@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>ysiiMdk7aO6gQ0LV0nreTuWO+Qs=11/3/2020 10:15:25 PM10/1/2020 6:46:01 AMLftC6A/nD2HdGivkte5/ANZFyZ4=10/1/2020 6:46:02 AM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>clrOgJK6A0USI6CCY9PN0jniIWY=11/4/2020 9:03:45 PM10/1/2020 6:46:01 AMLftC6A/nD2HdGivkte5/ANZFyZ4=10/1/2020 6:46:02 AM10/1/2020 6:46:01 AM</TimeStamp>
         <ID>
           <String>Mediazon</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-03T21:17:51.876667Z</LastDeployed>
+  <LastDeployed>2020-11-04T20:03:49.726667Z</LastDeployed>
 </DeploymentSnapshot>
