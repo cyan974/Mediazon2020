@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="67dd8980-9e3d-4e04-bd45-76c3d402097c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c04b10fa-8217-4ff3-9c77-d81bbee473b9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Mediazon DWH</ID>
   <Name>Mediazon DWH</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6744" scrolltop="3831" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="28787" y="17899" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="53" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4643" scrolltop="-4914" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="31049" y="18362" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
                   </font>
@@ -450,12 +450,23 @@
                     <point x="12394" y="4900" />
                   </connector>
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimExchange" left="17308" top="4695" logicalid="52" controlid="27" masterid="0" hint1="0" hint2="0" width="3000" height="1799" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000007070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_DimExchange" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-6744</DiagramViewPortLeft>
-            <DiagramViewPortTop>3831</DiagramViewPortTop>
+            <DiagramViewPortLeft>-4643</DiagramViewPortLeft>
+            <DiagramViewPortTop>-4914</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -860,6 +871,21 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="dbo_DimExchange" msprop:design-time-name="a4656c9e-b35e-4dd1-9995-4ec8d655871e" msprop:DbTableName="DimExchange" msprop:FriendlyName="DimExchange" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Date" msprop:design-time-name="da283898-84c5-4f4a-bb50-2db224d7059d" msprop:DbColumnName="Date" msprop:FriendlyName="Date" type="xs:int" />
+                  <xs:element name="Currency" msprop:design-time-name="835dfaa0-6106-49ac-80d8-775baae775ee" msprop:DbColumnName="Currency" msprop:FriendlyName="Currency">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Exchange" msprop:design-time-name="6bfbe096-cdd9-42af-adb2-7bd613f6141b" msprop:DbColumnName="Exchange" msprop:FriendlyName="Exchange" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -894,49 +920,49 @@
           <xs:selector xpath=".//dbo_DimTypesProduits" />
           <xs:field xpath="type_id" />
         </xs:unique>
-        <xs:keyref name="FK_FaitsVentesProduits_DimProduits" refer="dbo_DimProduits_Constraint1">
+        <xs:keyref name="FK_FaitsVentesProduits_Sale" refer="dbo_DimTemps_Constraint1">
           <xs:selector xpath=".//dbo_FaitsVentesProduits" />
-          <xs:field xpath="product_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_FaitsVentesProduits_DimDevises" refer="dbo_DimDevises_Constraint1">
-          <xs:selector xpath=".//dbo_FaitsVentesProduits" />
-          <xs:field xpath="currency_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_FaitsVentesProduits_DimEntrepots" refer="dbo_DimEntrepots_Constraint1">
-          <xs:selector xpath=".//dbo_FaitsVentesProduits" />
-          <xs:field xpath="warehouse_id" />
-        </xs:keyref>
-        <xs:keyref name="FK_FaitsVentesProduits_DimTypesProduits" refer="dbo_DimTypesProduits_Constraint1">
-          <xs:selector xpath=".//dbo_FaitsVentesProduits" />
-          <xs:field xpath="type_id" />
+          <xs:field xpath="order_date" />
         </xs:keyref>
         <xs:keyref name="FK_FaitsVentesProduits_DimClients" refer="Constraint1">
           <xs:selector xpath=".//dbo_FaitsVentesProduits" />
           <xs:field xpath="customer_id" />
         </xs:keyref>
-        <xs:keyref name="FK_FaitsVentesProduits_Sale" refer="dbo_DimTemps_Constraint1">
+        <xs:keyref name="FK_FaitsVentesProduits_DimTypesProduits" refer="dbo_DimTypesProduits_Constraint1">
           <xs:selector xpath=".//dbo_FaitsVentesProduits" />
-          <xs:field xpath="order_date" />
+          <xs:field xpath="type_id" />
         </xs:keyref>
-        <xs:keyref name="FK_FaitsCommandes_DimClients" refer="Constraint1">
-          <xs:selector xpath=".//dbo_FaitsCommandes" />
-          <xs:field xpath="customer_id" />
+        <xs:keyref name="FK_FaitsVentesProduits_DimEntrepots" refer="dbo_DimEntrepots_Constraint1">
+          <xs:selector xpath=".//dbo_FaitsVentesProduits" />
+          <xs:field xpath="warehouse_id" />
         </xs:keyref>
-        <xs:keyref name="FK_FaitsCommandes_Shipping" refer="dbo_DimTemps_Constraint1">
-          <xs:selector xpath=".//dbo_FaitsCommandes" />
-          <xs:field xpath="shipping_date" />
-        </xs:keyref>
-        <xs:keyref name="FK_FaitsCommandes_DimDevises" refer="dbo_DimDevises_Constraint1">
-          <xs:selector xpath=".//dbo_FaitsCommandes" />
+        <xs:keyref name="FK_FaitsVentesProduits_DimDevises" refer="dbo_DimDevises_Constraint1">
+          <xs:selector xpath=".//dbo_FaitsVentesProduits" />
           <xs:field xpath="currency_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_FaitsVentesProduits_DimProduits" refer="dbo_DimProduits_Constraint1">
+          <xs:selector xpath=".//dbo_FaitsVentesProduits" />
+          <xs:field xpath="product_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_FaitsCommandes_Order" refer="dbo_DimTemps_Constraint1">
+          <xs:selector xpath=".//dbo_FaitsCommandes" />
+          <xs:field xpath="order_date" />
         </xs:keyref>
         <xs:keyref name="FK_FaitsCommandes_DimEntrepots" refer="dbo_DimEntrepots_Constraint1">
           <xs:selector xpath=".//dbo_FaitsCommandes" />
           <xs:field xpath="warehouse_id" />
         </xs:keyref>
-        <xs:keyref name="FK_FaitsCommandes_Order" refer="dbo_DimTemps_Constraint1">
+        <xs:keyref name="FK_FaitsCommandes_DimDevises" refer="dbo_DimDevises_Constraint1">
           <xs:selector xpath=".//dbo_FaitsCommandes" />
-          <xs:field xpath="order_date" />
+          <xs:field xpath="currency_id" />
+        </xs:keyref>
+        <xs:keyref name="FK_FaitsCommandes_Shipping" refer="dbo_DimTemps_Constraint1">
+          <xs:selector xpath=".//dbo_FaitsCommandes" />
+          <xs:field xpath="shipping_date" />
+        </xs:keyref>
+        <xs:keyref name="FK_FaitsCommandes_DimClients" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FaitsCommandes" />
+          <xs:field xpath="customer_id" />
         </xs:keyref>
         <xs:keyref name="FK_DimTypesProduits_DimTypesProduits" refer="dbo_DimTypesProduits_Constraint1">
           <xs:selector xpath=".//dbo_DimTypesProduits" />
