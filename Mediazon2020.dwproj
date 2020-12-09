@@ -43,6 +43,10 @@
       <Name>Types Produits.dim</Name>
       <FullPath>Types Produits.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Shipping.dim</Name>
+      <FullPath>Shipping.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

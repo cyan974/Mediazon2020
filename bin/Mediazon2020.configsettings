@@ -29,6 +29,9 @@
       <Dimension>
         <ID>Types Produits</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dim Shipping</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>

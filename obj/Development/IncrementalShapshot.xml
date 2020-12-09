@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>6G0g7B4V0C2ZA3jlTqx3s2l2BoA=11/4/2020 11:25:32 PM10/1/2020 6:25:12 AM</TimeStamp>
+        <TimeStamp>KQup+lSvZu9fr8EOLD9zs9+f4TU=12/3/2020 10:39:31 PM10/1/2020 6:25:12 AM</TimeStamp>
         <ID>
           <String>Mediazon DWH</String>
         </ID>
@@ -74,8 +74,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3cjNcUFmf1xo6lb3UGnOrax9tZs=12/9/2020 8:36:15 AM12/2/2020 4:00:28 PM</TimeStamp>
+        <ID>
+          <String>Dim Shipping</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>n4mWT3YOhw+dc/mBwE1YB+NeYPs=11/5/2020 12:33:10 AM10/1/2020 6:46:01 AMQNTnMgCAP0JlGyU1QoOdvsoJezE=11/4/2020 11:52:41 PM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>VbZXey9fXJnZ6BS+gssp3kQcGmA=12/9/2020 8:39:24 AM10/1/2020 6:46:01 AMl0UBQPFpsqWBA5Ca7OwFQ3ty6oo=12/2/2020 4:12:49 PM10/1/2020 6:46:01 AM</TimeStamp>
         <ID>
           <String>Mediazon</String>
         </ID>
@@ -92,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-11-04T23:33:13.243333Z</LastDeployed>
+  <LastDeployed>2020-12-09T07:46:01.323333Z</LastDeployed>
 </DeploymentSnapshot>
