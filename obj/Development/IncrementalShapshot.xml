@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3cjNcUFmf1xo6lb3UGnOrax9tZs=12/9/2020 8:36:15 AM12/2/2020 4:00:28 PM</TimeStamp>
+        <TimeStamp>EL44dL82cgKjigKHakB1uOZOBCw=12/9/2020 9:11:24 AM12/2/2020 4:00:28 PM</TimeStamp>
         <ID>
           <String>Dim Shipping</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-12-09T07:46:01.323333Z</LastDeployed>
+  <LastDeployed>2020-12-09T08:11:28.383333Z</LastDeployed>
 </DeploymentSnapshot>
