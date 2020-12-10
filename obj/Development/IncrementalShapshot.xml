@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,70 +19,70 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>pXndDVvBfeZpO7M3b2XQRokNm18=10/1/2020 6:23:41 AM10/1/2020 6:23:41 AM</TimeStamp>
+        <TimeStamp>pXndDVvBfeZpO7M3b2XQRokNm18=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>MediazonDB</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>KQup+lSvZu9fr8EOLD9zs9+f4TU=12/3/2020 10:39:31 PM10/1/2020 6:25:12 AM</TimeStamp>
+        <TimeStamp>KQup+lSvZu9fr8EOLD9zs9+f4TU=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Mediazon DWH</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ccL5BnCZxpE2UHg6wNwFZRyLW90=11/2/2020 6:55:42 PM10/22/2020 9:44:33 PM</TimeStamp>
+        <TimeStamp>ccL5BnCZxpE2UHg6wNwFZRyLW90=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Clients</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Qqqm1J4aLES+bBLsH294DiSdhvI=10/7/2020 5:08:52 PM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>Qqqm1J4aLES+bBLsH294DiSdhvI=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Temps</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>eaMeVENgzVNddC/7GKRZhOkrfmI=10/24/2020 4:32:49 PM10/22/2020 9:07:39 PM</TimeStamp>
+        <TimeStamp>eaMeVENgzVNddC/7GKRZhOkrfmI=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Devises</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Ww7x6ghcOj2HNwKMxepYNQOmics=10/20/2020 1:40:21 PM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>Ww7x6ghcOj2HNwKMxepYNQOmics=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Entrepots</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>+TooTt7yFm68Aq3i43n0R1YuxmM=10/20/2020 1:40:21 PM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>+TooTt7yFm68Aq3i43n0R1YuxmM=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Produits</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>qBObeWTRumvrMHNWKeWqAfswcvE=10/7/2020 4:36:13 PM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>qBObeWTRumvrMHNWKeWqAfswcvE=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Types Produits</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>EL44dL82cgKjigKHakB1uOZOBCw=12/9/2020 9:11:24 AM12/2/2020 4:00:28 PM</TimeStamp>
+        <TimeStamp>EL44dL82cgKjigKHakB1uOZOBCw=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Dim Shipping</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>VbZXey9fXJnZ6BS+gssp3kQcGmA=12/9/2020 8:39:24 AM10/1/2020 6:46:01 AMl0UBQPFpsqWBA5Ca7OwFQ3ty6oo=12/2/2020 4:12:49 PM10/1/2020 6:46:01 AM</TimeStamp>
+        <TimeStamp>VbZXey9fXJnZ6BS+gssp3kQcGmA=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PMl0UBQPFpsqWBA5Ca7OwFQ3ty6oo=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
         <ID>
           <String>Mediazon</String>
         </ID>
@@ -90,7 +90,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>H8nDrSD4xEch8/1nJoa2oPI9jh8=10/1/2020 6:21:05 AM10/1/2020 6:21:04 AM</TimeStamp>
+      <TimeStamp>H8nDrSD4xEch8/1nJoa2oPI9jh8=12/10/2020 8:41:53 PM12/10/2020 8:41:53 PM</TimeStamp>
       <ID>
         <String>Mediazon2020</String>
       </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-12-09T08:11:28.383333Z</LastDeployed>
+  <LastDeployed>2020-12-10T20:25:49.123333Z</LastDeployed>
 </DeploymentSnapshot>
